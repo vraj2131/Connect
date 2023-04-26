@@ -17,7 +17,7 @@ dotenv.config();
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: ["http://localhost:3000", "https://connectify-social-app.onrender.com"],
+    origin: ["http://localhost:3000", "https://connect-two-lemon.vercel.app/posts/64491bee4dbbc87d68af7708"],
   },
 });
 
